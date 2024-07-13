@@ -9,6 +9,8 @@ function countInc(){
 }
 
 function App() {
+  const [counter, setCounter]= useState(5)
+  // bracket me koi bhi default value daaldo, doesnt matter koi bhi dataatype ho.
   const [count, setCount] = useState(0)
 
   return (
@@ -22,3 +24,5 @@ function App() {
 }
 
 export default App
+
+
